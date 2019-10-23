@@ -86,6 +86,7 @@ func wrtieCSV(iam, workspace []string) {
 func main() {
 	if len(os.Args) != 4 {
 		fmt.Println("Arguments not enough")
+		os.Exit(1)
 	}
 
 	info := os.Args
